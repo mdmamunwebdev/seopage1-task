@@ -1,0 +1,423 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fdbe00 !important;
+}
+
+.bg-overlay {
+    background-color: #020e28c2 !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.span-1 {
+    color: #fdbe00 !important;
+}
+
+.span-2 {
+    color: #004377 !important;
+}
+
+.span-3 {
+    color: white !important;
+}
+
+.span-4 {
+    color: #007dff !important;
+}
+
+.divider {
+    border: 1px solid #007dff !important;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    background: #020e28;
+    font-size: 10px;
+    height: 70px;
+    padding: 0;
+    color: #cccccc;
+}
+
+#topbar .contact-info a{
+    color: #cccccc;
+}
+
+#topbar .contact-info i {
+    color: #0254b2;
+    line-height: 0;
+}
+
+#topbar .contact-info span {
+    border: 1px solid #cccccc;
+}
+
+
+/**  Small devices (landscape phones, 576px and up)  **/
+@media (min-width: 576px) {
+    #topbar {
+        font-size: 16px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Header | Navbar
+--------------------------------------------------------------*/
+
+#seopage-nav-list li .nav-link{
+    height: 100px !important;
+    line-height: 90px !important;
+    color: #020e28;
+}
+
+.nav-active {
+    color: #fdbe00 !important;
+    border-bottom: 3px solid #fdbe00;
+}
+
+.nav-btn {
+    background-image: -moz-linear-gradient( -17deg, rgb( 253, 190, 0 ) 0.122%, rgb( 0, 125, 255 ) 100%);
+    background-image: -webkit-linear-gradient( -17deg, rgb( 253, 190, 0 ) 0.122%, rgb( 0, 125, 255 ) 100%);
+    width: 182px;
+    height: 45px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+
+#hero {
+    background-image: url("../img/hero-bg-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+}
+
+#hero .item h1 {
+    font-size: 30px !important;
+}
+
+#hero .item h6 {
+    font-size: 15px !important;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: -moz-right;
+    text-align: -webkit-right;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 2px solid white;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 13px;
+    margin-right: 80px;
+}
+
+
+/**  Small devices (landscape phones, 576px and up)  **/
+@media (min-width: 576px) {
+    #hero .item h1 {
+        font-size: 34px !important;
+    }
+
+    #hero {
+        height: 364px;
+    }
+}
+
+/**  Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) {
+    #hero .item h1 {
+        font-size: 47px !important;
+    }
+
+    #hero .item h6 {
+        font-size: 20px !important;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-right: 119px;
+    }
+
+    #hero {
+        height: 455px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) {
+    #hero .item h1 {
+        font-size: 64px !important;
+    }
+
+    #hero .item h6 {
+        font-size: 28px !important;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-right: 158px;
+    }
+
+    #hero {
+        height: 565px;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+    #hero .item h6 {
+        font-size: 29px !important;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-right: 247px;
+    }
+
+    #hero {
+        height: 710px;
+    }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.middle-border {
+    border-top: 1px solid rgba(0, 0, 0, 0.07); border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+#about-section-one {
+    box-shadow: 0 0 5px -2px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 0 0 5px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0 0 5px -2px rgba(0,0,0,0.41);
+}
+
+#about-section-one .aso-head {
+    font-size: 30px;
+    color: black;
+}
+
+#about-section-one .aso-head p {
+    font-size: 16px;
+    color: #101010;
+}
+
+#about-section-two h1 {
+    font-size: 35px !important;
+}
+
+#about-section-two p {
+    font-size: 16px;
+    color: #101010;
+}
+
+
+/** X-Large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+    .middle-border {
+        border-left: 1px solid rgba(0, 0, 0, 0.07); border-right: 1px solid rgba(0, 0, 0, 0.07);
+    }
+}
+
+/*--------------------------------------------------------------
+# Parts
+--------------------------------------------------------------*/
+
+#parts {
+    background-image: url("../img/bg-parts.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*height: 710px;*/
+}
+
+#parts h1 {
+    font-size: 30px !important;
+}
+
+#parts p {
+    font-size: 16px !important;
+}
+
+/*--------------------------------------------------------------
+# Brands
+--------------------------------------------------------------*/
+
+#brands h1 {
+    font-size: 35px !important;
+}
+
+#brands h2 {
+    font-size: 20px !important;
+    color: #101010;
+}
+
+#brands p {
+    font-size: 16px !important;
+}
+
+/*--------------------------------------------------------------
+# Contacts
+--------------------------------------------------------------*/
+
+#contact {
+    background-image: url("../img/bg-contact.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+
+.contact-card {
+    background-color: #141d32 !important;
+    width: 451px;
+    left: -322px;
+    top: 105px;
+}
+
+.contact-card h1 {
+    font-size: 15px;
+}
+
+.contact-card p {
+    font-size: 10px;
+}
+
+
+/**  Small devices (landscape phones, 576px and up)  **/
+@media (min-width: 576px) {
+
+    .contact-card {
+        width: 636px;
+        left: -452px;
+        top: 95px;
+    }
+
+    .contact-card h1 {
+        font-size: 20px;
+    }
+
+}
+
+/**  Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) {
+    .contact-card {
+        width: 625px;
+        left: -452px;
+        top: 95px;
+    }
+
+    .contact-card h1 {
+        font-size: 25px;
+    }
+
+    .contact-card p {
+        font-size: 7px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) {
+    .contact-card {
+        width: 681px;
+        left: -452px;
+        top: 95px;
+    }
+
+    .contact-card h1 {
+        font-size: 30px;
+    }
+
+    .contact-card p {
+        font-size: 8px;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+    .contact-card {
+        width: 776px;
+        left: -452px;
+        top: 95px;
+    }
+
+    .contact-card h1 {
+        font-size: 35px;
+    }
+
+    .contact-card p {
+        font-size: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Footer Top
+--------------------------------------------------------------*/
+
+#footer-top {
+    background-color: #020e28;
+}
+
+#footer-top h1 {
+    font-size: 20px;
+}
+
+.social-links {
+    font-size: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links ul {
+    padding: 0;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links i {
+    color: #fdbe00;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+# Footer Bottom
+--------------------------------------------------------------*/
+
+#footer-bottom {
+    background-color: #000818;
+    font-size: 12px;
+}
+
