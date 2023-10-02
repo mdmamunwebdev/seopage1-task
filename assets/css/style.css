@@ -307,6 +307,19 @@ a:hover {
     font-size: 10px;
 }
 
+.contact-card-2 {
+    background-color: #141d32 !important;
+}
+
+.contact-card-2 h1 {
+    font-size: 15px;
+}
+
+.contact-card-2 p {
+    font-size: 10px;
+}
+
+
 
 /**  Small devices (landscape phones, 576px and up)  **/
 @media (min-width: 576px) {
